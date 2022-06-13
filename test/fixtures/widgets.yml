@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  seller: users(:one) 
+  description: MyString
+  price: 70
+
+two:
+  seller: users(:two)
+  description: MyString
+  price: 9.99
+
+three:
+  seller: users(:two)
+  description: MyString
+  price: 1000
